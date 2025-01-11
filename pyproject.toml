@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pycounts_mz"
+version = "0.1.0"
+description = "A toy package for counting words in a text file for 524 individual assignment."
+authors = ["Mason Zhang"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
